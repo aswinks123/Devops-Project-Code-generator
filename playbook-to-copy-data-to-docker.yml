@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: True
+
+  tasks:
+      - name: Testing the source code and move the code to Docker node
+        synchronize:
+          src: /var/lib/jenkins/workspace/insightIQ/
+          dest: /home/jenkins/Devops-project/
+          delete: yes
+          

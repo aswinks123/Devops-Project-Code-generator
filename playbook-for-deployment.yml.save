@@ -1,0 +1,27 @@
+---
+- hosts: all
+  become: false
+
+  tasks:
+      - name: Stop running container
+
+        command: sudo docker service rm insightiq
+        ignore_errors: yes
+
+
+
+
+      - name: Build new image
+        command: sh /home/jenkins/Devops-project/run_container.sh
+      
+      - name: Run the new Container        
+        command: sudo docker service create --replicas 3 -p 80:8083 --name insightiq 1365890/devops_projects
+
+
+     
+
+      
+
+     
+      
+

@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: false
+
+  tasks:
+      - name: Build new image
+        command: sh /home/jenkins/Devops-project/run_container.sh
+
+
+      - name: push new image
+        command: sudo docker push 1365890/devops_projects

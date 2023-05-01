@@ -1,0 +1,30 @@
+---
+- hosts: all
+  become: false
+
+  tasks:
+
+          
+      - name: Stop running Service
+        command: sudo docker service rm insightiq
+        ignore_errors: yes
+
+
+    
+      - name: Run the new service        
+        command: sudo docker service create --replicas 2 -p 80:8083 --name insightiq 1365890/devops_projects
+
+
+
+
+      - name: Remove all older images
+        command: sudo docker image prune -f
+
+
+     
+
+      
+
+     
+      
+
