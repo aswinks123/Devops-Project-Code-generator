@@ -13,6 +13,11 @@ This project focuses on implementing a Continuous Integration/Continuous Deploym
 ![image](https://user-images.githubusercontent.com/108337342/235503768-391295bb-31bf-4e7a-badb-41d9e22bcc1c.png)
 
 
+<b>Jenkins Build Stages</b>
+
+![image](https://user-images.githubusercontent.com/108337342/236038311-6966d024-6604-477e-a897-3374dfec3d8e.png)
+
+
 <b>Sample Image</b>
 
 ![image](https://user-images.githubusercontent.com/108337342/235503799-2b8a5ce4-8f50-446f-868b-5ba792054f0e.png)
@@ -20,5 +25,5 @@ This project focuses on implementing a Continuous Integration/Continuous Deploym
 ![image](https://user-images.githubusercontent.com/108337342/235503912-4044323e-441f-4b19-b984-809339ec2ff4.png)
 
 
-<b>Refer the attached Documentation for indepth details</b>
+<b>Refer the attached Documentation for more details</b>
 
