@@ -24,7 +24,9 @@ This project focuses on implementing a Continuous Integration/Continuous Deploym
 
 ![image](https://user-images.githubusercontent.com/108337342/235503912-4044323e-441f-4b19-b984-809339ec2ff4.png)
 
-<b>Applicatin deployment Demo</b>
+
+
+<b>Application deployment Demo</b>
 
 
 
